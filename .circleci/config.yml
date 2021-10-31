@@ -34,11 +34,7 @@ jobs:
           paths:
             - node_modules
 
-      - store_test_results:
-          path: test-results
-
-      - store_artifacts:
-          path: test-results
+ 
 
   macos-build-and-test:
     working_directory: ~/demo-react-native
