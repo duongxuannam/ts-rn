@@ -4,7 +4,7 @@ import Animated, {
   useAnimatedScrollHandler,
   useSharedValue,
 } from 'react-native-reanimated';
-import Page from '../../component/Page';
+import Page from './Page';
 
 const WORDS = ["What's", 'up', 'mobile', 'devs?'];
 
