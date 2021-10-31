@@ -155,15 +155,15 @@ android {
         //         keyPassword MYAPP_UPLOAD_KEY_PASSWORD
         //     }
         // }
-        // release {
-        //     signingConfig null
+        release {
+            signingConfig null
 
-        //     applicationVariants.all { variant ->
-        //         variant.outputs.all { output ->
-        //             output.outputFileName = "app-release.apk"
-        //         }
-        //     }
-        //     }
+            applicationVariants.all { variant ->
+                variant.outputs.all { output ->
+                    output.outputFileName = "app-release.apk"
+                }
+            }
+            }
 
 
         debug {
