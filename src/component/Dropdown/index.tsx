@@ -15,7 +15,7 @@ function Dropdown({children}: DropdownProps) {
   } = useDropdown();
   return (
     <>
-      <View ref={childrenRef}>
+      <View collapsable={false} ref={childrenRef}>
         <TouchableOpacity onPress={onPress}>{children}</TouchableOpacity>
       </View>
 

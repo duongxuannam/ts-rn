@@ -18,8 +18,6 @@ function DropdownBody({
   measure,
   heightDropdown,
 }: DropdownBodyProps) {
-  console.log('Measure', measure);
-
   return (
     <Modal
       visible={isVisible}

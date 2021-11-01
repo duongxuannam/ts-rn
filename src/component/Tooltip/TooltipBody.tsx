@@ -18,8 +18,6 @@ function Tooltip({
   measure,
   height,
 }: TooltipProps) {
-  console.log('Measure', measure);
-
   return (
     <Modal
       visible={isVisible}

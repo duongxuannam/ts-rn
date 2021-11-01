@@ -14,7 +14,6 @@ const useTooltip = () => {
   const onPress = () => {
     childrenRef?.current?.measure(
       (_: number, __: number, w: number, h: number, px: number, py: number) => {
-        console.log(px);
         if (SCREEN_HEIGHT < py + h + TOOLTIP_HEIGHT + 10) {
           setMeasureChildren({
             x: px,

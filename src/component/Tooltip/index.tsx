@@ -15,7 +15,7 @@ function Tooltip({children}: TooltipProps) {
   } = useTooltip();
   return (
     <>
-      <View ref={childrenRef}>
+      <View collapsable={false} ref={childrenRef}>
         <TouchableOpacity onPress={onPress}>{children}</TouchableOpacity>
       </View>
 

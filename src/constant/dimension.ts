@@ -2,7 +2,6 @@ import {Dimensions} from 'react-native';
 
 const {height, width} = Dimensions.get('window');
 
-console.log('whai ', height, width);
 const [shortDimension, longDimension] =
   width < height ? [width, height] : [height, width];
 
